@@ -11,7 +11,10 @@ export default function Page() {
         {`Hi, I'm Aaron, a software developer passionate about building intuitive and efficient applications. With experience in React, Flutter, and JavaScript, I focus on crafting responsive and user-centered interfaces. I enjoy problem-solving, learning new technologies, and bringing ideas to life through code.`}
       </p>
 
-      <h2 className="mt-12 mb-6 text-xl font-semibold tracking-tighter">
+      <h2
+        id="projects"
+        className="mt-12 mb-6 text-xl font-semibold tracking-tighter scroll-mt-32"
+      >
         Projects
       </h2>
       <div className="space-y-8">
@@ -60,7 +63,10 @@ export default function Page() {
         ))}
       </div>
 
-      <h2 className="mt-12 mb-6 text-xl font-semibold tracking-tighter">
+      <h2
+        id="experience"
+        className="mt-12 mb-6 text-xl font-semibold tracking-tighter scroll-mt-32"
+      >
         Experience
       </h2>
       <div className="space-y-8">
