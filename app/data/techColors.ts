@@ -6,71 +6,71 @@ interface ColorScheme {
 const techColors: { [key: string]: ColorScheme } = {
   // Frontend
   React: {
-    background: "#61DAFB20",
+    background: "#61DAFB33",
     text: "#61DAFB",
   },
   "Next.js": {
-    background: "#00000010",
-    text: "#000000",
+    background: "#00000033",
+    text: "#FFFFFF",
   },
   TypeScript: {
-    background: "#3178C620",
+    background: "#3178C633",
     text: "#3178C6",
   },
   JavaScript: {
-    background: "#F7DF1E20",
+    background: "#F7DF1E33",
     text: "#F7DF1E",
   },
   Redux: {
-    background: "#764ABC20",
+    background: "#764ABC33",
     text: "#764ABC",
   },
   TailwindCSS: {
-    background: "#06B6D420",
+    background: "#06B6D433",
     text: "#06B6D4",
   },
   Flutter: {
-    background: "#02569B20",
+    background: "#02569B33",
     text: "#02569B",
   },
 
   // Backend
   "Node.js": {
-    background: "#33993320",
+    background: "#33993333",
     text: "#339933",
   },
   Express: {
-    background: "#00000015",
-    text: "#000000",
+    background: "#00000033",
+    text: "#FFFFFF",
   },
   PostgreSQL: {
-    background: "#33679120",
+    background: "#33679133",
     text: "#336791",
   },
   MongoDB: {
-    background: "#47A24820",
+    background: "#47A24833",
     text: "#47A248",
   },
 
   // Tools & Services
   Stripe: {
-    background: "#008CDD20",
+    background: "#008CDD33",
     text: "#008CDD",
   },
   "Weather API": {
-    background: "#00668820",
+    background: "#00668833",
     text: "#006688",
   },
   WebSocket: {
-    background: "#00000015",
-    text: "#000000",
+    background: "#00000033",
+    text: "#FFFFFF",
   },
 };
 
 export function getTechColor(tech: string): ColorScheme {
   // Default color if tech not found
   const defaultColor: ColorScheme = {
-    background: "#64748B20",
+    background: "#64748B33",
     text: "#64748B",
   };
 
