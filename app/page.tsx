@@ -1,5 +1,6 @@
 import { experiences } from "./data/experience";
 import { projects } from "./data/projects";
+import { getTechColor } from "./data/techColors";
 
 export default function Page() {
   return (
@@ -50,14 +51,21 @@ export default function Page() {
             </div>
             <p className="mt-2 text-gray-700">{project.description}</p>
             <div className="mt-2 flex flex-wrap gap-2">
-              {project.technologies.map((tech, idx) => (
-                <span
-                  key={idx}
-                  className="inline-block bg-gray-100 px-2 py-1 text-sm text-gray-600 rounded"
-                >
-                  {tech}
-                </span>
-              ))}
+              {project.technologies.map((tech, idx) => {
+                const { background, text } = getTechColor(tech);
+                return (
+                  <span
+                    key={idx}
+                    className="inline-block px-2 py-1 text-sm rounded"
+                    style={{
+                      backgroundColor: background,
+                      color: text,
+                    }}
+                  >
+                    {tech}
+                  </span>
+                );
+              })}
             </div>
           </div>
         ))}
