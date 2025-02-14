@@ -10,12 +10,6 @@ const navItems = {
   "/experience": {
     name: "experience",
   },
-  "/resume.pdf": {
-    name: "resume",
-  },
-  "/blog": {
-    name: "blog",
-  },
 };
 
 export function Navbar() {
