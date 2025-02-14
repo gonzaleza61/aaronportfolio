@@ -30,7 +30,7 @@ const techColors: { [key: string]: ColorScheme } = {
     text: "#06B6D4",
   },
   Flutter: {
-    background: "#54C5F833",
+    background: "#54C5F8CC",
     text: "#FFFFFF",
   },
 
@@ -52,11 +52,11 @@ const techColors: { [key: string]: ColorScheme } = {
     text: "#47A248",
   },
   Firebase: {
-    background: "#FFCA2833",
+    background: "#FFCA28CC",
     text: "#000000",
   },
   OpenAI: {
-    background: "#FFFFFF33",
+    background: "#FFFFFFCC",
     text: "#000000",
   },
 
