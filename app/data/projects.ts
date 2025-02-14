@@ -9,12 +9,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "E-commerce Platform",
+    title: "Fitness App",
     description:
-      "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/username/ecommerce-platform",
-    link: "https://demo-ecommerce.example.com",
+      "A Flutter fitness app leveraging Firebase and OpenAI for AI-powered workout tracking, scheduling, and progress logging—built for a seamless and intelligent fitness experience.",
+    technologies: ["Flutter", "Firebase", "OpenAI"],
+    github: "https://github.com/gonzaleza61/wmftracker",
+    link: "https://wmf-weight-tracker.web.app/",
   },
   {
     title: "Task Management App",

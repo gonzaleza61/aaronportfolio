@@ -30,11 +30,11 @@ const techColors: { [key: string]: ColorScheme } = {
     text: "#06B6D4",
   },
   Flutter: {
-    background: "#02569B33",
-    text: "#02569B",
+    background: "#54C5F833",
+    text: "#FFFFFF",
   },
 
-  // Backend
+  // Backend & Services
   "Node.js": {
     background: "#33993333",
     text: "#339933",
@@ -50,6 +50,14 @@ const techColors: { [key: string]: ColorScheme } = {
   MongoDB: {
     background: "#47A24833",
     text: "#47A248",
+  },
+  Firebase: {
+    background: "#FFCA2833",
+    text: "#000000",
+  },
+  OpenAI: {
+    background: "#FFFFFF33",
+    text: "#000000",
   },
 
   // Tools & Services
