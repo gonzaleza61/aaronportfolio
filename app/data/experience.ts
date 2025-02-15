@@ -8,36 +8,25 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Solutions Inc.",
-    location: "San Francisco, CA",
+    title: "Software Engineer",
+    company: "Witness My Fitness",
+    location: "Houston, TX",
     period: "2021 - Present",
     description: [
-      "Led development of a high-traffic e-commerce platform using React and Node.js",
-      "Implemented CI/CD pipelines reducing deployment time by 40%",
-      "Mentored junior developers and conducted code reviews",
+      "Developed and maintained responsive web applications for fitness tracking and scheduling using React, JavaScript, and Firebase, ensuring a seamless user experience.",
+      "Built cross-platform fitness apps with Flutter, integrating Firebase and OpenAI APIs for AI-powered workout recommendations and real-time data syncing.",
+      "Optimized app performance and scalability, implementing best practices in state management, API integration, and cloud functions to enhance user engagement.",
     ],
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Innovations Lab",
-    location: "Remote",
-    period: "2019 - 2021",
+    title: "Software Engineer Intern",
+    company: "Limbic Innovations",
+    location: "Houston, Tx",
+    period: "2021 - 2022",
     description: [
-      "Built responsive web applications using React and TypeScript",
-      "Developed RESTful APIs using Express and MongoDB",
-      "Improved application performance by 60% through optimization",
-    ],
-  },
-  {
-    title: "Software Developer",
-    company: "StartUp Co",
-    location: "Seattle, WA",
-    period: "2018 - 2019",
-    description: [
-      "Developed and maintained multiple client-facing applications",
-      "Collaborated with design team to implement UI/UX improvements",
-      "Participated in agile development processes",
+      "Designed and developed a landing page website to communicate the company's mission in the field of addiction recovery",
+      "Worked closely with the marketing team to make changes and updates as needed",
+      "Contributed to the overall software development projects of the company",
     ],
   },
 ];
