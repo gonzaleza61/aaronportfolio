@@ -1,5 +1,6 @@
 import { experiences } from "./data/experience";
 import { projects } from "./data/projects";
+import { certificates } from "./data/certificates";
 import { getTechColor } from "./data/techColors";
 
 export default function Page() {
@@ -95,6 +96,39 @@ export default function Page() {
                 </li>
               ))}
             </ul>
+          </div>
+        ))}
+      </div>
+
+      <h2
+        id="certificates"
+        className="mt-12 mb-6 text-xl font-semibold tracking-tighter scroll-mt-32"
+      >
+        Certificates
+      </h2>
+      <div className="space-y-8">
+        {certificates.map((cert, index) => (
+          <div
+            key={index}
+            className="border-b border-gray-200 pb-8 last:border-none"
+          >
+            <div className="flex items-center justify-between">
+              <h3 className="font-medium">{cert.title}</h3>
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-900"
+              >
+                View Certificate
+              </a>
+            </div>
+            <div className="text-gray-600">
+              {cert.issuer} • {cert.date}
+            </div>
+            {cert.description && (
+              <p className="mt-2 text-gray-700">{cert.description}</p>
+            )}
           </div>
         ))}
       </div>

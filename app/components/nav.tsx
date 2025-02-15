@@ -10,6 +10,9 @@ const navItems = {
   "/#experience": {
     name: "experience",
   },
+  "/#certificates": {
+    name: "certificates",
+  },
 };
 
 export function Navbar() {
