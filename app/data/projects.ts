@@ -25,10 +25,11 @@ export const projects: Project[] = [
     link: "https://queenofswordsphaser.vercel.app/",
   },
   {
-    title: "Weather Dashboard",
+    title: "AlphaThreaded Site",
     description:
-      "An interactive weather dashboard that displays current conditions and forecasts using multiple weather APIs.",
-    technologies: ["React", "Redux", "TailwindCSS", "Weather API"],
-    github: "https://github.com/username/weather-dashboard",
+      "A React & JavaScript-built website providing essential tool supply information with a clean design and easy contact options.",
+    technologies: ["React", "JavaScript", "TailwindCSS"],
+    github: "https://github.com/gonzaleza61/alphathreaded",
+    link: "https://alphathreaded.vercel.app/",
   },
 ];
