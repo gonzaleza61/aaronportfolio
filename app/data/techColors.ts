@@ -6,7 +6,7 @@ interface ColorScheme {
 const techColors: { [key: string]: ColorScheme } = {
   // Frontend
   React: {
-    background: "#61DAFB33",
+    background: "#FFFFFFCC",
     text: "#61DAFB",
   },
   "Next.js": {
@@ -18,8 +18,8 @@ const techColors: { [key: string]: ColorScheme } = {
     text: "#3178C6",
   },
   JavaScript: {
-    background: "#F7DF1E33",
-    text: "#F7DF1E",
+    background: "#F7DF1ECC",
+    text: "#000000",
   },
   Redux: {
     background: "#764ABC33",
