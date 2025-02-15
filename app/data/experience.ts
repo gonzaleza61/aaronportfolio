@@ -11,7 +11,7 @@ export const experiences: Experience[] = [
     title: "Software Engineer",
     company: "Witness My Fitness",
     location: "Houston, TX",
-    period: "2021 - Present",
+    period: "2022 - Present",
     description: [
       "Built cross-platform fitness apps with Flutter, integrating Firebase and OpenAI APIs for AI-powered workout recommendations and real-time data syncing.",
       "Optimized app performance and scalability, implementing best practices in state management, API integration, and cloud functions to enhance user engagement.",
