@@ -13,7 +13,6 @@ export const experiences: Experience[] = [
     location: "Houston, TX",
     period: "2021 - Present",
     description: [
-      "Developed and maintained responsive web applications for fitness tracking and scheduling using React, JavaScript, and Firebase, ensuring a seamless user experience.",
       "Built cross-platform fitness apps with Flutter, integrating Firebase and OpenAI APIs for AI-powered workout recommendations and real-time data syncing.",
       "Optimized app performance and scalability, implementing best practices in state management, API integration, and cloud functions to enhance user engagement.",
     ],
