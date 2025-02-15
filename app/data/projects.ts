@@ -20,7 +20,7 @@ export const projects: Project[] = [
     title: "QOS Game",
     description:
       "A 2D platformer built with React, JavaScript, and Phaser.js, featuring smooth gameplay, dynamic physics, and immersive visuals for an engaging player experience.",
-    technologies: ["React", "Javascript"],
+    technologies: ["React", "JavaScript"],
     github: "https://github.com/gonzaleza61/queenofswordsphaser",
     link: "https://queenofswordsphaser.vercel.app/",
   },
