@@ -17,12 +17,12 @@ export const projects: Project[] = [
     link: "https://wmf-weight-tracker.web.app/",
   },
   {
-    title: "Task Management App",
+    title: "QOS Game",
     description:
-      "A collaborative task management application with real-time updates, team workspaces, and progress tracking.",
-    technologies: ["TypeScript", "Next.js", "PostgreSQL", "WebSocket"],
-    github: "https://github.com/username/task-manager",
-    link: "https://task-app.example.com",
+      "A 2D platformer built with React, JavaScript, and Phaser.js, featuring smooth gameplay, dynamic physics, and immersive visuals for an engaging player experience.",
+    technologies: ["React", "Javascript"],
+    github: "https://github.com/gonzaleza61/queenofswordsphaser",
+    link: "https://queenofswordsphaser.vercel.app/",
   },
   {
     title: "Weather Dashboard",
