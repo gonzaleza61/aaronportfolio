@@ -100,6 +100,31 @@ export default function Page() {
         ))}
       </div>
 
+      <div className="mt-8 flex justify-end">
+        <a
+          href="/resume.pdf" // You'll need to add your resume PDF to the public folder
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors"
+        >
+          View Full Resume
+          <svg
+            className="ml-1 w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+        </a>
+      </div>
+
       <h2
         id="certificates"
         className="mt-12 mb-6 text-xl font-semibold tracking-tighter scroll-mt-32"
