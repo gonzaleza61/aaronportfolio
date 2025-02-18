@@ -102,7 +102,7 @@ export default function Page() {
 
       <div className="mt-8 flex justify-end">
         <a
-          href="/resume.pdf"
+          href="/AaronAnthonyResume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center text-gray-600 hover:text-gray-900 transition-colors"
