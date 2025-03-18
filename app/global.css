@@ -9,6 +9,11 @@
   font-display: swap;
 }
 
+/* Add a specific class we can use to test the font */
+.font-iosevka {
+  font-family: "Iosevka", monospace !important;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
