@@ -32,4 +32,12 @@ export const projects: Project[] = [
     github: "https://github.com/gonzaleza61/alphathreaded",
     link: "https://alphathreaded.vercel.app/",
   },
+  {
+    title: "Emma Lopez DDS Website",
+    description:
+      "A modern, responsive dental practice website for Dr. Emma Lopez, featuring service pages, contact forms, and a clean, accessible design.",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS"],
+    github: "https://github.com/gonzaleza61/emmalopezdds",
+    link: "https://emmalopezdds.vercel.app/",
+  },
 ];
