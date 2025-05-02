@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Emma Lopez DDS Website",
+    description:
+      "A modern, responsive dental practice website for Dr. Emma Lopez, featuring service pages, contact forms, and a clean, accessible design.",
+    technologies: ["React", "JavaScript"],
+    github: "https://github.com/gonzaleza61/emmalopezdds",
+    link: "https://emmalopezdds.vercel.app/",
+  },
+  {
     title: "Fitness App",
     description:
       "A Flutter fitness app leveraging Firebase and OpenAI for AI-powered workout tracking, scheduling, and progress logging—built for a seamless and intelligent fitness experience.",
@@ -31,13 +39,5 @@ export const projects: Project[] = [
     technologies: ["React", "JavaScript", "TailwindCSS"],
     github: "https://github.com/gonzaleza61/alphathreaded",
     link: "https://alphathreaded.vercel.app/",
-  },
-  {
-    title: "Emma Lopez DDS Website",
-    description:
-      "A modern, responsive dental practice website for Dr. Emma Lopez, featuring service pages, contact forms, and a clean, accessible design.",
-    technologies: ["Next.js", "TypeScript", "TailwindCSS"],
-    github: "https://github.com/gonzaleza61/emmalopezdds",
-    link: "https://emmalopezdds.vercel.app/",
   },
 ];
